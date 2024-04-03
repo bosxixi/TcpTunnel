@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProxyServer", "TestProx
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProxyClient", "TestProxyClient\TestProxyClient.csproj", "{5368590A-8168-452A-963D-B6B5ABD1640E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FasterReverseProxy", "FasterReverseProxy", "{C792E8C3-D5C1-4859-9D00-15A1E346F02C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fasterrp", "fasterrp\fasterrp.csproj", "{43E925EC-BE07-4E8E-AEC5-4AE485EB7541}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +37,16 @@ Global
 		{5368590A-8168-452A-963D-B6B5ABD1640E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5368590A-8168-452A-963D-B6B5ABD1640E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5368590A-8168-452A-963D-B6B5ABD1640E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E925EC-BE07-4E8E-AEC5-4AE485EB7541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E925EC-BE07-4E8E-AEC5-4AE485EB7541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E925EC-BE07-4E8E-AEC5-4AE485EB7541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E925EC-BE07-4E8E-AEC5-4AE485EB7541}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43E925EC-BE07-4E8E-AEC5-4AE485EB7541} = {C792E8C3-D5C1-4859-9D00-15A1E346F02C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13436B29-0A4D-4EB0-8C61-45B77F632194}

@@ -1,0 +1,11 @@
+@fasterrp_HostAddress = http://localhost:5273
+
+GET {{fasterrp_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{fasterrp_HostAddress}}/todos/1
+Accept: application/json
+
+###
